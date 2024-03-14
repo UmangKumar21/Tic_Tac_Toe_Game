@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+    text-align: center;
+}
+
+.container{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game{
+    height: 35vmin;
+    width: 35vmin;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+
+}
+
+.box{
+    height: 10vmin;
+    width:10vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 5vmin;
+    color: red;
+    background-color:rgb(221, 218, 218);
+    cursor: pointer;
+}
+
+#reset{
+    height: 6vmin;
+    width: 13vmin;
+    border-radius: 1rem;
+    background-color: chocolate;
+    color: lime;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+#newb{
+    height: 6vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    background-color: chocolate;
+    color: lime;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    cursor: pointer;
+    
+}
+
+#msg{
+    color:lime;
+    font-size: 4vmin;
+    font-weight: bold;
+}
+
+.msg-container{
+    height: 25vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hide{
+    display: none;
+}
+#h2{
+    color: rgb(5, 251, 194);
+}
+#h3{
+   color: rgb(5, 251, 194);
+}
+#anch{
+    color:gold
+}
